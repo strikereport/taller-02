@@ -17,5 +17,9 @@ namespace Taller_02_base_de_datos
             InitializeComponent();
         }
 
+        private void button8_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

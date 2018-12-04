@@ -16,30 +16,52 @@ namespace Taller_02_base_de_datos
         {
             InitializeComponent();
         }
+        
         //para ir al la pantalla de agregar
         private void button1_Click(object sender, EventArgs e)
         {
+            // escondemos la pantalla
+            this.Hide();
+            //cargamos la siguiente pantalla
             Agregar ParaAgregar = new Agregar();
             ParaAgregar.ShowDialog();
+            //al terminar se carga denuevo la pantalla
+            this.Show();
         }
 
         // para ir a la pantalla de eliminar
         private void button2_Click(object sender, EventArgs e)
         {
+            // escondemos la pantalla
+            this.Hide();
+            //cargamos la siguiente pantalla
             Eliminar ParaEliminar = new Eliminar();
             ParaEliminar.ShowDialog();
+            //al terminar se carga denuevo la pantalla
+            this.Show();
         }
         // para ir a la pantalla de busqueda
         private void button3_Click(object sender, EventArgs e)
         {
+            // escondemos la pantalla
+            this.Hide();
+            //cargamos la siguiente pantalla
             Busqueda ParaBusqueda = new Busqueda();
             ParaBusqueda.ShowDialog();
+            //al terminar se carga denuevo la pantalla
+            this.Show();
         }
         // para la pantalla de consulta y estadisticas
         private void button4_Click(object sender, EventArgs e)
         {
+            // escondemos la pantalla
+            this.Hide();
+            //cargamos la siguiente pantalla
             Consultas ParaConsultas = new Consultas();
             ParaConsultas.ShowDialog();
+            //al terminar se carga denuevo la pantalla
+            this.Show();
         }
+        
     }
 }

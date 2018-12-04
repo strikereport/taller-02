@@ -28,13 +28,106 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(13, 22);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(254, 24);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Los estudiantes que son menores de 18 años";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(13, 53);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(254, 24);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "Los estudiantes que son mayores de 30 años";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(13, 84);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(254, 62);
+            this.button3.TabIndex = 2;
+            this.button3.Text = "Considerando todos los cursos y todos los estudiantes, indicar el porcentaje de l" +
+    "as inscripciones que se hicieron en los horarios de oficina: 8.00 a 12.30 y 14.3" +
+    "0 a 18.30 horas";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(13, 153);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(254, 40);
+            this.button4.TabIndex = 3;
+            this.button4.Text = "Cantidad de estudiantes que ingresaron antes del año 2000";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(13, 200);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(254, 38);
+            this.button5.TabIndex = 4;
+            this.button5.Text = "Consultar por los estudiantes de un determinado curso";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button8
+            // 
+            this.button8.Location = new System.Drawing.Point(84, 353);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(115, 25);
+            this.button8.TabIndex = 7;
+            this.button8.Text = "Regresar";
+            this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(12, 245);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(254, 41);
+            this.button6.TabIndex = 8;
+            this.button6.Text = "Estadísticas generales: total de estudiantes, total de cursos, total de profesore" +
+    "s";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(12, 293);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(254, 41);
+            this.button7.TabIndex = 9;
+            this.button7.Text = "Curso con la mayor cantidad de estudiantes, curso con la menor cantidad de estudi" +
+    "antes";
+            this.button7.UseVisualStyleBackColor = true;
             // 
             // Consultas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(413, 180);
+            this.ClientSize = new System.Drawing.Size(292, 404);
+            this.Controls.Add(this.button7);
+            this.Controls.Add(this.button6);
+            this.Controls.Add(this.button8);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Name = "Consultas";
             this.Text = "Consultas";
             this.ResumeLayout(false);
@@ -42,5 +135,14 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button7;
     }
 }

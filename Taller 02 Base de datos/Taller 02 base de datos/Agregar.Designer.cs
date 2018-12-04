@@ -70,7 +70,7 @@
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(140, 31);
             this.button4.TabIndex = 3;
-            this.button4.Text = "Regresar a menu principal";
+            this.button4.Text = "Regresar";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 

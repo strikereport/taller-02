@@ -12,3 +12,13 @@ D:\Talleres\Taller 02 base de datos\Taller 02 base de datos\Taller 02 base de da
 D:\Talleres\T2 Base de datos\Taller 02 base de datos\bin\Debug\Taller 02 base de datos.exe.config
 D:\Talleres\T2 Base de datos\Taller 02 base de datos\obj\Debug\Taller 02 base de datos.exe
 D:\Talleres\T2 Base de datos\Taller 02 base de datos\obj\Debug\Taller 02 base de datos.pdb
+D:\Talleres\T2 Base de datos\Taller 02 base de datos\bin\Debug\Taller 02 base de datos.exe
+D:\Talleres\T2 Base de datos\Taller 02 base de datos\bin\Debug\Taller 02 base de datos.pdb
+D:\Talleres\T2 Base de datos\Taller 02 base de datos\obj\Debug\Taller 02 base de datos.csprojResolveAssemblyReference.cache
+D:\Talleres\T2 Base de datos\Taller 02 base de datos\obj\Debug\Taller_02_base_de_datos.Consultas.resources
+D:\Talleres\T2 Base de datos\Taller 02 base de datos\obj\Debug\Taller_02_base_de_datos.Eliminar.resources
+D:\Talleres\T2 Base de datos\Taller 02 base de datos\obj\Debug\Taller_02_base_de_datos.Inicio.resources
+D:\Talleres\T2 Base de datos\Taller 02 base de datos\obj\Debug\Taller_02_base_de_datos.Agregar.resources
+D:\Talleres\T2 Base de datos\Taller 02 base de datos\obj\Debug\Taller_02_base_de_datos.Properties.Resources.resources
+D:\Talleres\T2 Base de datos\Taller 02 base de datos\obj\Debug\Taller 02 base de datos.csproj.GenerateResource.Cache
+D:\Talleres\T2 Base de datos\Taller 02 base de datos\obj\Debug\Taller_02_base_de_datos.Busqueda.resources

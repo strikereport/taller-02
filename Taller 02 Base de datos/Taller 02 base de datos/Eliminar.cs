@@ -16,5 +16,11 @@ namespace Taller_02_base_de_datos
         {
             InitializeComponent();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            //cerramos el menu de eliminar
+            this.Close();
+        }
     }
 }
