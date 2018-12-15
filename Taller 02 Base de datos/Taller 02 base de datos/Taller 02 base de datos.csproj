@@ -33,6 +33,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MySql.Data, Version=8.0.13.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MySQL\MySQL Connector Net 8.0.13\Assemblies\v4.5.2\MySql.Data.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,6 +50,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clases\BdComun.cs" />
+    <Compile Include="Funcion Agregar\Agregar01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Funcion Agregar\Agregar01.Designer.cs">
+      <DependentUpon>Agregar01.cs</DependentUpon>
+    </Compile>
     <Compile Include="Busqueda.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,10 +81,10 @@
     <Compile Include="Inicio.Designer.cs">
       <DependentUpon>Inicio.cs</DependentUpon>
     </Compile>
-    <Compile Include="Agregar.cs">
+    <Compile Include="Funcion Agregar\Agregar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Agregar.Designer.cs">
+    <Compile Include="Funcion Agregar\Agregar.Designer.cs">
       <DependentUpon>Agregar.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -87,10 +98,13 @@
     <EmbeddedResource Include="Eliminar.resx">
       <DependentUpon>Eliminar.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Funcion Agregar\Agregar01.resx">
+      <DependentUpon>Agregar01.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Inicio.resx">
       <DependentUpon>Inicio.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Agregar.resx">
+    <EmbeddedResource Include="Funcion Agregar\Agregar.resx">
       <DependentUpon>Agregar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">

@@ -22,3 +22,7 @@ D:\Talleres\T2 Base de datos\Taller 02 base de datos\obj\Debug\Taller_02_base_de
 D:\Talleres\T2 Base de datos\Taller 02 base de datos\obj\Debug\Taller_02_base_de_datos.Properties.Resources.resources
 D:\Talleres\T2 Base de datos\Taller 02 base de datos\obj\Debug\Taller 02 base de datos.csproj.GenerateResource.Cache
 D:\Talleres\T2 Base de datos\Taller 02 base de datos\obj\Debug\Taller_02_base_de_datos.Busqueda.resources
+D:\Talleres\T2 Base de datos\Taller 02 base de datos\obj\Debug\Taller_02_base_de_datos.Agregar01.resources
+D:\Talleres\T2 Base de datos\Taller 02 base de datos\bin\Debug\MySql.Data.dll
+D:\Talleres\T2 Base de datos\Taller 02 base de datos\bin\Debug\Google.Protobuf.dll
+D:\Talleres\T2 Base de datos\Taller 02 base de datos\bin\Debug\MySql.Data.xml
