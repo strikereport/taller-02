@@ -8,6 +8,8 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
+using Taller_02_base_de_datos.Clases;
 
 namespace Taller_02_base_de_datos
 {
@@ -69,21 +71,21 @@ namespace Taller_02_base_de_datos
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //validamos que sea un rut valido
-            string rut = textBox1.Text;
-            // ahora verificamos que sea rut valido
-            bool respuesta = validarRut(rut);
-            //verificamos que sea correcto el rut
-            if (respuesta == false)
-            {
-                //si no es valido mandamos un aviso
-                MessageBox.Show(" Rut no valido, Ingrese nuevamente");
-                //borramos lo del texbox
-                textBox1.Clear();
-            }
-            // validamos que sea un alumno 
-            BdComun.ProbarConexion();
+            Alumno_Curso Alumno = new Alumno_Curso();
+            Alumno.rut_estudiante = textalumno.Text;
+            Alumno.id_curso = Convert.ToInt32(textBox1.Text);
+            //Alumno.fecha_creacion = DateTime.Today;
 
+            int resultado = Alumno_CursoDAL.Agregar(Alumno);
+
+            if(resultado > 0)
+            {
+                MessageBox.Show("Alumno ingresado correctamente");
+            }else
+            {
+                MessageBox.Show("No se pudo guardar los datos");
+
+            }
         }
     }
 }
