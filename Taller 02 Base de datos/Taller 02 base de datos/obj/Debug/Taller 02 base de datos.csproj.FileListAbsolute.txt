@@ -43,3 +43,8 @@ C:\Users\Report\Documents\github\taller-02\Taller 02 Base de datos\Taller 02 bas
 C:\Users\Report\Documents\github\taller-02\Taller 02 Base de datos\Taller 02 base de datos\obj\Debug\Taller_02_base_de_datos.Agregar.resources
 C:\Users\Report\Documents\github\taller-02\Taller 02 Base de datos\Taller 02 base de datos\obj\Debug\Taller_02_base_de_datos.Properties.Resources.resources
 C:\Users\Report\Documents\github\taller-02\Taller 02 Base de datos\Taller 02 base de datos\obj\Debug\Taller 02 base de datos.csproj.GenerateResource.Cache
+C:\Users\Report\Documents\github\taller-02\Taller 02 Base de datos\Taller 02 base de datos\obj\Debug\Taller_02_base_de_datos.Funcion_Agregar.Agregar2.resources
+C:\Users\Report\Documents\github\taller-02\Taller 02 Base de datos\Taller 02 base de datos\obj\Debug\Taller_02_base_de_datos.Funcion_Agregar.Agregar3.resources
+C:\Users\Report\Documents\github\taller-02\Taller 02 Base de datos\Taller 02 base de datos\obj\Debug\Taller_02_base_de_datos.Funcion_Agregar.Agregar4.resources
+C:\Users\Report\Documents\github\taller-02\Taller 02 Base de datos\Taller 02 base de datos\obj\Debug\Taller_02_base_de_datos.Funcion_Agregar.Agregar5.resources
+C:\Users\Report\Documents\github\taller-02\Taller 02 Base de datos\Taller 02 base de datos\obj\Debug\Taller_02_base_de_datos.Funcion_Agregar.Agregar6.resources

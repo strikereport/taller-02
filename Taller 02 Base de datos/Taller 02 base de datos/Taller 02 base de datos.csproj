@@ -77,6 +77,36 @@
     <Compile Include="Eliminar.Designer.cs">
       <DependentUpon>Eliminar.cs</DependentUpon>
     </Compile>
+    <Compile Include="Funcion Agregar\Agregar2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Funcion Agregar\Agregar2.Designer.cs">
+      <DependentUpon>Agregar2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Funcion Agregar\Agregar3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Funcion Agregar\Agregar3.Designer.cs">
+      <DependentUpon>Agregar3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Funcion Agregar\Agregar4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Funcion Agregar\Agregar4.Designer.cs">
+      <DependentUpon>Agregar4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Funcion Agregar\Agregar5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Funcion Agregar\Agregar5.Designer.cs">
+      <DependentUpon>Agregar5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Funcion Agregar\Agregar6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Funcion Agregar\Agregar6.Designer.cs">
+      <DependentUpon>Agregar6.cs</DependentUpon>
+    </Compile>
     <Compile Include="Inicio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -102,6 +132,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Funcion Agregar\Agregar01.resx">
       <DependentUpon>Agregar01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Funcion Agregar\Agregar2.resx">
+      <DependentUpon>Agregar2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Funcion Agregar\Agregar3.resx">
+      <DependentUpon>Agregar3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Funcion Agregar\Agregar4.resx">
+      <DependentUpon>Agregar4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Funcion Agregar\Agregar5.resx">
+      <DependentUpon>Agregar5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Funcion Agregar\Agregar6.resx">
+      <DependentUpon>Agregar6.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Inicio.resx">
       <DependentUpon>Inicio.cs</DependentUpon>
@@ -130,6 +175,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Funcion Eliminar\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
