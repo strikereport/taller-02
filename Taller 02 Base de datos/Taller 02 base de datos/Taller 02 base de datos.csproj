@@ -53,6 +53,8 @@
     <Compile Include="Clases\Alumno_Curso.cs" />
     <Compile Include="Clases\Alumno_CursoDAL.cs" />
     <Compile Include="Clases\BdComun.cs" />
+    <Compile Include="Clases\NuevoCurso.cs" />
+    <Compile Include="Clases\NuevoCursoDAL.cs" />
     <Compile Include="Funcion Agregar\Agregar01.cs">
       <SubType>Form</SubType>
     </Compile>
