@@ -43,8 +43,9 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(259, 28);
             this.button1.TabIndex = 0;
-            this.button1.Text = "Las asignaturas de un estudiante";
+            this.button1.Text = "Las asignaturas de un estudiante RF(5)";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -52,9 +53,10 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(259, 36);
             this.button2.TabIndex = 1;
-            this.button2.Text = "La cantidad de estudiantes que inscribieron un determinado curso entre las 0.00 y" +
-    " las 8.00 horas";
+            this.button2.Text = "La cantidad de estudiantes que inscribieron un curso entre las 0.00 y las 8.00 hr" +
+    "s RF(16)";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -72,8 +74,9 @@
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(259, 32);
             this.button4.TabIndex = 3;
-            this.button4.Text = "Los cursos de un profesor";
+            this.button4.Text = "Datos de un profesor RF(6-7-10)";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
@@ -83,6 +86,7 @@
             this.button5.TabIndex = 4;
             this.button5.Text = "El total de bono de responsabilidad que tiene un profesor";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Visible = false;
             // 
             // button6
             // 
@@ -90,8 +94,9 @@
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(259, 34);
             this.button6.TabIndex = 5;
-            this.button6.Text = "Total de estudiantes en un curso";
+            this.button6.Text = "Total de estudiantes en un curso RF(9-19)";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button7
             // 
@@ -101,6 +106,7 @@
             this.button7.TabIndex = 6;
             this.button7.Text = "Total de cursos que dicta un profesor";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Visible = false;
             // 
             // Busqueda
             // 

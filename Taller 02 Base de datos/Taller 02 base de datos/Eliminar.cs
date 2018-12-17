@@ -22,5 +22,21 @@ namespace Taller_02_base_de_datos
             //cerramos el menu de eliminar
             this.Close();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            RF2 orf2 = new RF2();
+            orf2.ShowDialog();
+            this.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            RF3 orf3 = new RF3();
+            orf3.ShowDialog();
+            this.Show();
+        }
     }
 }
