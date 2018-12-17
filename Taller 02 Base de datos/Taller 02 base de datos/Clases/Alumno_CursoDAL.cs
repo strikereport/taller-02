@@ -15,7 +15,7 @@ namespace Taller_02_base_de_datos.Clases
             int retorno = 0;
             using(MySqlConnection Conectar = BdComun.Obtener_Conexion())
             {
-                MySqlCommand Comando = new MySqlCommand(String.Format("insert into estudiante_curso (rut_estudiante,id_curso,fecha_creacion) values('{0}' , '{1}' , '2017/10/24 16:35:03' )", pAlumno.rut_estudiante, pAlumno.id_curso, pAlumno.fecha_creacion),Conectar);
+                MySqlCommand Comando = new MySqlCommand(String.Format("insert into estudiante_curso (rut_estudiante,id_curso,fecha_creacion) values('{0}' , '{1}' , '{2}' )", pAlumno.rut_estudiante, pAlumno.id_curso, pAlumno.fecha_creacion.ToString("yyyy-MM-dd HH:mm:ss")),Conectar);
                 retorno = Comando.ExecuteNonQuery();
             }
             return retorno;
